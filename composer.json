@@ -1,6 +1,11 @@
 {
     "name": "openset/xml",
     "description": "XML help for php",
+    "keywords": [
+        "openset",
+        "xml",
+        "helper"
+    ],
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -10,5 +15,15 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Openset\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Openset\\Tests\\": "tests/"
+        }
+    }
 }
