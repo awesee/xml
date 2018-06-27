@@ -1,0 +1,14 @@
+{
+    "name": "openset/xml",
+    "description": "XML help for php",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Openset",
+            "email": "openset.wang@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
