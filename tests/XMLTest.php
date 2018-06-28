@@ -7,7 +7,7 @@ namespace Openset\Tests;
  * Class XMLTest
  * @package Openset\Tests
  */
-class XMLTest
+final class XMLTest
 {
 
 }
